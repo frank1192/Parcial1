@@ -65,7 +65,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Agregar");
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
