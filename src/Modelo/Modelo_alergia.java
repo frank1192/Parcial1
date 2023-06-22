@@ -30,5 +30,10 @@ public class Modelo_alergia {
     }
     
     
+    public String toString() {
+        return "{" + "Id: " + this.getID() + ", Nombre: " + this.getNombre() + "}";
+    }
+    
+    
     
 }

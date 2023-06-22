@@ -16,6 +16,14 @@ public class Modelo_Paciente {
     private String Telefono;
     private String Direccion;
 
+    public Modelo_Paciente(String Identificacion, String Nombres,String Apellido,String Telefono,String Direccion) {
+        this.Identificacion = Identificacion;
+        this.Nombres = Nombres;
+        this.Apellido = Apellido;
+        this.Telefono = Telefono;
+        this.Direccion = Direccion;
+    }
+    
     public String getIdentificacion() {
         return Identificacion;
     }
