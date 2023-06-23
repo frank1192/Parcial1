@@ -63,4 +63,10 @@ public class Modelo_Paciente {
     public void setDireccion(String Direccion) {
         this.Direccion = Direccion;
     }
+    
+    @Override
+    public String toString() {
+        return "{" + "Id: " + this.getIdentificacion()+ ", Nombre: " + this.getNombres() + ", Apellidos: " + this.getApellido() + ", telefono: " + this.getTelefono() + ", direccion: " + this.getDireccion() +  "}";
+    }
+    
 }
